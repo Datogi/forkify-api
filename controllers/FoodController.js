@@ -41,7 +41,7 @@ exports.createFood = async (req, res) => {
     res.status(201).json({
       status: "success",
       requestedAt: req.requestTime,
-      data: { tour: newFood },
+      data: { data: newFood },
     });
   } catch (err) {
     res.status(400).json({

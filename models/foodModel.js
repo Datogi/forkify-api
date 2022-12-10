@@ -8,7 +8,7 @@ const foodSchema = mongoose.Schema({
   },
   title: {
     type: String,
-    required: [true, "A tour must have a title"],
+    required: [true, "A Food must have a title"],
   },
   source_url: String,
   recipe_id: String,
